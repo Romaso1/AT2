@@ -1,0 +1,17 @@
+2025-04-09 02:00:46 INFO  CustomListener:103 - onExecutionStart (IExecutionListener): Початок виконання тестів.
+2025-04-09 02:00:46 INFO  CustomListener:92 - onStart (ISuite): Запуск сьюту CustomListenerSuite
+2025-04-09 02:00:46 INFO  CustomListener:35 - onStart (ITestContext): Завантаження тестових даних з локальної БД та запуск браузера.
+2025-04-09 02:00:46 INFO  CustomListener:116 - beforeInvocation: Перед викликом методу setUp
+2025-04-09 02:00:51 INFO  CustomListener:123 - afterInvocation: Завершено виклик методу setUp
+2025-04-09 02:00:51 INFO  CustomListener:125 - afterInvocation: Закриття браузера, якщо це потрібно (логічний блок).
+2025-04-09 02:00:51 INFO  CustomListener:41 - onTestStart: Тест sampleTest починається.
+2025-04-09 02:00:51 INFO  CustomListener:116 - beforeInvocation: Перед викликом методу sampleTest
+2025-04-09 02:00:51 INFO  CustomListener:123 - afterInvocation: Завершено виклик методу sampleTest
+2025-04-09 02:00:51 INFO  CustomListener:125 - afterInvocation: Закриття браузера, якщо це потрібно (логічний блок).
+2025-04-09 02:00:51 INFO  CustomListener:76 - onTestSuccess: Тест sampleTest успішно пройшов.
+2025-04-09 02:00:51 INFO  CustomListener:116 - beforeInvocation: Перед викликом методу tearDown
+2025-04-09 02:00:51 INFO  CustomListener:123 - afterInvocation: Завершено виклик методу tearDown
+2025-04-09 02:00:51 INFO  CustomListener:125 - afterInvocation: Закриття браузера, якщо це потрібно (логічний блок).
+2025-04-09 02:00:51 INFO  CustomListener:86 - onFinish (ITestContext): Завершення тестового контексту SampleTest
+2025-04-09 02:00:51 INFO  CustomListener:97 - onFinish (ISuite): Завершення сьюту CustomListenerSuite
+2025-04-09 02:00:51 INFO  CustomListener:109 - onExecutionFinish (IExecutionListener): Завершення виконання тестів.

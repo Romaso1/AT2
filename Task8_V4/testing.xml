@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Task2TestSuite">
+    <!-- Параметр, який передається в тест testGetArray -->
+    <parameter name="expectedLength" value="5"/>
+    <test name="Task2Tests">
+        <classes>
+            <class name="com.example.Task2Test"/>
+        </classes>
+    </test>
+</suite>

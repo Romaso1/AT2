@@ -1,0 +1,10 @@
+<suite name="AllureCustomSuite">
+    <listeners>
+        <listener class-name="com.example.CustomListener"/>
+    </listeners>
+    <test name="SampleTests">
+        <classes>
+            <class name="com.example.SomeSampleTest"/>
+        </classes>
+    </test>
+</suite>

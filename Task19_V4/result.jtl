@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1744397336436,98,Login,302,Found,Mantis Scenario 1-1,text,true,,920,257,1,1,http://localhost/mantis/login.php,95,0,19
+1744397336540,69,View Issues Page,200,OK,Mantis Scenario 1-1,text,true,,25773,288,1,1,http://localhost/mantis/view_all_bug_page.php,68,0,0
+1744397336609,83,Open Issue ID 1,200,OK,Mantis Scenario 1-1,text,true,,35814,306,1,1,http://localhost/mantis/view.php?id=1,82,0,1
+1744397336692,62,Add Comment to Issue,403,Forbidden,Mantis Scenario 1-1,text,false,,9931,557,1,1,http://localhost/mantis/bugnote_add.php,62,0,1
+1744397336756,75,Reload Issue to Verify Comment,200,OK,Mantis Scenario 1-1,text,true,,35814,306,1,1,http://localhost/mantis/view.php?id=1,74,0,0

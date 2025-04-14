@@ -1,0 +1,644 @@
+2025-04-09 02:00:46 INFO  CustomListener:103 - onExecutionStart (IExecutionListener): Початок виконання тестів.
+2025-04-09 02:00:46 INFO  CustomListener:92 - onStart (ISuite): Запуск сьюту CustomListenerSuite
+2025-04-09 02:00:46 INFO  CustomListener:35 - onStart (ITestContext): Завантаження тестових даних з локальної БД та запуск браузера.
+2025-04-09 02:00:46 INFO  CustomListener:116 - beforeInvocation: Перед викликом методу setUp
+2025-04-09 02:00:51 INFO  CustomListener:123 - afterInvocation: Завершено виклик методу setUp
+2025-04-09 02:00:51 INFO  CustomListener:125 - afterInvocation: Закриття браузера, якщо це потрібно (логічний блок).
+2025-04-09 02:00:51 INFO  CustomListener:41 - onTestStart: Тест sampleTest починається.
+2025-04-09 02:00:51 INFO  CustomListener:116 - beforeInvocation: Перед викликом методу sampleTest
+2025-04-09 02:00:51 INFO  CustomListener:123 - afterInvocation: Завершено виклик методу sampleTest
+2025-04-09 02:00:51 INFO  CustomListener:125 - afterInvocation: Закриття браузера, якщо це потрібно (логічний блок).
+2025-04-09 02:00:51 INFO  CustomListener:76 - onTestSuccess: Тест sampleTest успішно пройшов.
+2025-04-09 02:00:51 INFO  CustomListener:116 - beforeInvocation: Перед викликом методу tearDown
+2025-04-09 02:00:51 INFO  CustomListener:123 - afterInvocation: Завершено виклик методу tearDown
+2025-04-09 02:00:51 INFO  CustomListener:125 - afterInvocation: Закриття браузера, якщо це потрібно (логічний блок).
+2025-04-09 02:00:51 INFO  CustomListener:86 - onFinish (ITestContext): Завершення тестового контексту SampleTest
+2025-04-09 02:00:51 INFO  CustomListener:97 - onFinish (ISuite): Завершення сьюту CustomListenerSuite
+2025-04-09 02:00:51 INFO  CustomListener:109 - onExecutionFinish (IExecutionListener): Завершення виконання тестів.
+2025-04-09 02:08:51 INFO  CustomListener:107 - onExecutionStart (IExecutionListener): Початок виконання тестів.
+2025-04-09 02:08:51 INFO  CustomListener:96 - onStart (ISuite): Запуск сьюту AllureCustomSuite
+2025-04-09 02:08:51 INFO  CustomListener:33 - onStart (ITestContext): Завантаження тестових даних з локальної БД та запуск браузера.
+2025-04-09 02:08:51 INFO  CustomListener:119 - beforeInvocation: Перед викликом методу: setUp
+2025-04-09 02:08:53 INFO  CustomListener:124 - afterInvocation: Завершено виклик методу: setUp
+2025-04-09 02:08:53 INFO  CustomListener:125 - afterInvocation: Завершення тесту. Якщо потрібно, закриваємо браузер тут.
+2025-04-09 02:08:53 INFO  CustomListener:39 - onTestStart: Тест sampleTest починається.
+2025-04-09 02:08:53 INFO  CustomListener:119 - beforeInvocation: Перед викликом методу: sampleTest
+2025-04-09 02:08:54 INFO  CustomListener:124 - afterInvocation: Завершено виклик методу: sampleTest
+2025-04-09 02:08:54 INFO  CustomListener:125 - afterInvocation: Завершення тесту. Якщо потрібно, закриваємо браузер тут.
+2025-04-09 02:08:54 ERROR CustomListener:49 - onTestFailure: Тест sampleTest провалено. Виконується збереження артефактів.
+2025-04-09 02:08:54 INFO  CustomListener:133 - Allure Attachment: Збереження знімку екрану.
+2025-04-09 02:08:54 INFO  CustomListener:139 - Allure Attachment: Збереження HTML сторінки.
+2025-04-09 02:08:54 INFO  CustomListener:74 - onTestFailure: HTML збережено у файл sampleTest_a31079fb_20250409020854.html
+2025-04-09 02:08:54 INFO  CustomListener:152 - simulateVideoRecording: Старт відеозапису невдалого тесту...
+2025-04-09 02:08:55 INFO  CustomListener:158 - simulateVideoRecording: Відеозапис завершено. (Файл не створено, це демонстрація)
+2025-04-09 02:08:55 INFO  CustomListener:119 - beforeInvocation: Перед викликом методу: tearDown
+2025-04-09 02:08:55 INFO  CustomListener:124 - afterInvocation: Завершено виклик методу: tearDown
+2025-04-09 02:08:55 INFO  CustomListener:125 - afterInvocation: Завершення тесту. Якщо потрібно, закриваємо браузер тут.
+2025-04-09 02:08:55 INFO  CustomListener:90 - onFinish (ITestContext): Завершення тестового контексту: SampleTests
+2025-04-09 02:08:55 INFO  CustomListener:101 - onFinish (ISuite): Завершення сьюту AllureCustomSuite
+2025-04-09 02:08:55 INFO  CustomListener:112 - onExecutionFinish (IExecutionListener): Завершення виконання тестів.
+2025-04-09 02:09:20 INFO  CustomListener:107 - onExecutionStart (IExecutionListener): Початок виконання тестів.
+2025-04-09 02:09:20 INFO  CustomListener:96 - onStart (ISuite): Запуск сьюту AllureCustomSuite
+2025-04-09 02:09:20 INFO  CustomListener:33 - onStart (ITestContext): Завантаження тестових даних з локальної БД та запуск браузера.
+2025-04-09 02:09:20 INFO  CustomListener:119 - beforeInvocation: Перед викликом методу: setUp
+2025-04-09 02:09:24 INFO  CustomListener:124 - afterInvocation: Завершено виклик методу: setUp
+2025-04-09 02:09:24 INFO  CustomListener:125 - afterInvocation: Завершення тесту. Якщо потрібно, закриваємо браузер тут.
+2025-04-09 02:09:24 INFO  CustomListener:39 - onTestStart: Тест sampleTest починається.
+2025-04-09 02:09:24 INFO  CustomListener:119 - beforeInvocation: Перед викликом методу: sampleTest
+2025-04-09 02:09:25 INFO  CustomListener:124 - afterInvocation: Завершено виклик методу: sampleTest
+2025-04-09 02:09:25 INFO  CustomListener:125 - afterInvocation: Завершення тесту. Якщо потрібно, закриваємо браузер тут.
+2025-04-09 02:09:25 ERROR CustomListener:49 - onTestFailure: Тест sampleTest провалено. Виконується збереження артефактів.
+2025-04-09 02:09:25 INFO  CustomListener:133 - Allure Attachment: Збереження знімку екрану.
+2025-04-09 02:09:26 INFO  CustomListener:139 - Allure Attachment: Збереження HTML сторінки.
+2025-04-09 02:09:26 INFO  CustomListener:74 - onTestFailure: HTML збережено у файл sampleTest_7b6af04b_20250409020926.html
+2025-04-09 02:09:26 INFO  CustomListener:152 - simulateVideoRecording: Старт відеозапису невдалого тесту...
+2025-04-09 02:09:27 INFO  CustomListener:158 - simulateVideoRecording: Відеозапис завершено. (Файл не створено, це демонстрація)
+2025-04-09 02:09:27 INFO  CustomListener:119 - beforeInvocation: Перед викликом методу: tearDown
+2025-04-09 02:09:27 INFO  CustomListener:124 - afterInvocation: Завершено виклик методу: tearDown
+2025-04-09 02:09:27 INFO  CustomListener:125 - afterInvocation: Завершення тесту. Якщо потрібно, закриваємо браузер тут.
+2025-04-09 02:09:27 INFO  CustomListener:90 - onFinish (ITestContext): Завершення тестового контексту: SampleTests
+2025-04-09 02:09:27 INFO  CustomListener:101 - onFinish (ISuite): Завершення сьюту AllureCustomSuite
+2025-04-09 02:09:27 INFO  CustomListener:112 - onExecutionFinish (IExecutionListener): Завершення виконання тестів.
+2025-04-09 02:42:05 INFO  CustomListener:119 - onExecutionStart: Початок виконання тестів.
+2025-04-09 02:42:05 INFO  CustomListener:107 - onStart(ISuite): Запуск сьюту AllureCustomSuite
+2025-04-09 02:42:05 INFO  CustomListener:39 - onStart(ITestContext): Завантаження тестових даних з локальної БД та запуск браузера.
+2025-04-09 02:42:05 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу setUp
+2025-04-09 02:42:09 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу setUp
+2025-04-09 02:42:09 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-09 02:42:09 INFO  CustomListener:45 - onTestStart: Тест sampleTest починається.
+2025-04-09 02:42:09 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу sampleTest
+2025-04-09 02:42:10 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу sampleTest
+2025-04-09 02:42:10 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-09 02:42:10 ERROR CustomListener:55 - onTestFailure: Тест sampleTest провалено. Виконується збереження артефактів.
+2025-04-09 02:42:10 INFO  CustomListener:146 - Allure Attachment: Збереження знімку екрану.
+2025-04-09 02:42:11 INFO  CustomListener:152 - Allure Attachment: Збереження HTML сторінки.
+2025-04-09 02:42:11 INFO  CustomListener:79 - onTestFailure: HTML збережено у файл sampleTest_9dfb85d9_20250409024211.html
+2025-04-09 02:42:11 INFO  CustomListener:164 - simulateVideoRecording: Старт відеозапису невдалого тесту...
+2025-04-09 02:42:12 INFO  CustomListener:170 - simulateVideoRecording: Відеозапис завершено.
+2025-04-09 02:42:12 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу tearDown
+2025-04-09 02:42:12 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу tearDown
+2025-04-09 02:42:12 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-09 02:42:12 INFO  CustomListener:100 - onFinish(ITestContext): Завершення тестового контексту: SampleTests
+2025-04-09 02:42:12 INFO  CustomListener:112 - onFinish(ISuite): Завершення сьюту AllureCustomSuite
+2025-04-09 02:42:12 INFO  CustomListener:124 - onExecutionFinish: Завершення виконання тестів.
+2025-04-10 11:32:49 INFO  CustomListener:119 - onExecutionStart: Початок виконання тестів.
+2025-04-10 11:32:49 INFO  CustomListener:107 - onStart(ISuite): Запуск сьюту AllureCustomSuite
+2025-04-10 11:32:49 INFO  CustomListener:39 - onStart(ITestContext): Завантаження тестових даних з локальної БД та запуск браузера.
+2025-04-10 11:32:50 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу setUp
+2025-04-10 11:32:51 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу setUp
+2025-04-10 11:32:51 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 11:32:51 INFO  CustomListener:45 - onTestStart: Тест sampleTest починається.
+2025-04-10 11:32:51 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу sampleTest
+2025-04-10 11:32:51 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу sampleTest
+2025-04-10 11:32:51 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 11:32:51 WARN  CustomListener:90 - onTestSkipped: Тест sampleTest пропущено.
+2025-04-10 11:32:51 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу tearDown
+2025-04-10 11:32:51 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу tearDown
+2025-04-10 11:32:51 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 11:32:51 INFO  CustomListener:100 - onFinish(ITestContext): Завершення тестового контексту: SampleTests
+2025-04-10 11:32:51 INFO  CustomListener:112 - onFinish(ISuite): Завершення сьюту AllureCustomSuite
+2025-04-10 11:32:51 INFO  CustomListener:124 - onExecutionFinish: Завершення виконання тестів.
+2025-04-10 11:37:03 INFO  CustomListener:119 - onExecutionStart: Початок виконання тестів.
+2025-04-10 11:37:03 INFO  CustomListener:107 - onStart(ISuite): Запуск сьюту AllureCustomSuite
+2025-04-10 11:37:03 INFO  CustomListener:39 - onStart(ITestContext): Завантаження тестових даних з локальної БД та запуск браузера.
+2025-04-10 11:37:03 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу setUp
+2025-04-10 11:37:06 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу setUp
+2025-04-10 11:37:06 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 11:37:07 INFO  CustomListener:45 - onTestStart: Тест sampleTest починається.
+2025-04-10 11:37:07 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу sampleTest
+2025-04-10 11:37:07 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу sampleTest
+2025-04-10 11:37:07 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 11:37:07 WARN  CustomListener:90 - onTestSkipped: Тест sampleTest пропущено.
+2025-04-10 11:37:07 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу tearDown
+2025-04-10 11:37:07 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу tearDown
+2025-04-10 11:37:07 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 11:37:07 INFO  CustomListener:100 - onFinish(ITestContext): Завершення тестового контексту: SampleTests
+2025-04-10 11:37:07 INFO  CustomListener:112 - onFinish(ISuite): Завершення сьюту AllureCustomSuite
+2025-04-10 11:37:07 INFO  CustomListener:124 - onExecutionFinish: Завершення виконання тестів.
+2025-04-10 11:38:30 INFO  CustomListener:119 - onExecutionStart: Початок виконання тестів.
+2025-04-10 11:38:31 INFO  CustomListener:107 - onStart(ISuite): Запуск сьюту AllureCustomSuite
+2025-04-10 11:38:31 INFO  CustomListener:39 - onStart(ITestContext): Завантаження тестових даних з локальної БД та запуск браузера.
+2025-04-10 11:38:31 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу setUp
+2025-04-10 11:38:34 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу setUp
+2025-04-10 11:38:34 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 11:38:34 INFO  CustomListener:45 - onTestStart: Тест sampleTest починається.
+2025-04-10 11:38:34 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу sampleTest
+2025-04-10 11:38:34 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу sampleTest
+2025-04-10 11:38:34 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 11:38:34 WARN  CustomListener:90 - onTestSkipped: Тест sampleTest пропущено.
+2025-04-10 11:38:35 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу tearDown
+2025-04-10 11:38:35 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу tearDown
+2025-04-10 11:38:35 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 11:38:35 INFO  CustomListener:100 - onFinish(ITestContext): Завершення тестового контексту: SampleTests
+2025-04-10 11:38:35 INFO  CustomListener:112 - onFinish(ISuite): Завершення сьюту AllureCustomSuite
+2025-04-10 11:38:35 INFO  CustomListener:124 - onExecutionFinish: Завершення виконання тестів.
+2025-04-10 11:42:35 INFO  CustomListener:119 - onExecutionStart: Початок виконання тестів.
+2025-04-10 11:42:35 INFO  CustomListener:107 - onStart(ISuite): Запуск сьюту AllureCustomSuite
+2025-04-10 11:42:35 INFO  CustomListener:39 - onStart(ITestContext): Завантаження тестових даних з локальної БД та запуск браузера.
+2025-04-10 11:42:35 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу setUp
+2025-04-10 11:42:39 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу setUp
+2025-04-10 11:42:39 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 11:42:39 INFO  CustomListener:45 - onTestStart: Тест sampleTest починається.
+2025-04-10 11:42:39 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу sampleTest
+2025-04-10 11:42:40 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу sampleTest
+2025-04-10 11:42:40 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 11:42:40 INFO  CustomListener:50 - onTestSuccess: Тест sampleTest пройшов успішно.
+2025-04-10 11:42:40 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу tearDown
+2025-04-10 11:42:40 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу tearDown
+2025-04-10 11:42:40 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 11:42:40 INFO  CustomListener:100 - onFinish(ITestContext): Завершення тестового контексту: SampleTests
+2025-04-10 11:42:40 INFO  CustomListener:112 - onFinish(ISuite): Завершення сьюту AllureCustomSuite
+2025-04-10 11:42:40 INFO  CustomListener:124 - onExecutionFinish: Завершення виконання тестів.
+2025-04-10 11:44:30 INFO  CustomListener:119 - onExecutionStart: Початок виконання тестів.
+2025-04-10 11:44:30 INFO  CustomListener:107 - onStart(ISuite): Запуск сьюту AllureCustomSuite
+2025-04-10 11:44:30 INFO  CustomListener:39 - onStart(ITestContext): Завантаження тестових даних з локальної БД та запуск браузера.
+2025-04-10 11:44:30 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу setUp
+2025-04-10 11:44:35 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу setUp
+2025-04-10 11:44:35 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 11:44:35 INFO  CustomListener:45 - onTestStart: Тест sampleTest починається.
+2025-04-10 11:44:35 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу sampleTest
+2025-04-10 11:44:36 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу sampleTest
+2025-04-10 11:44:36 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 11:44:36 INFO  CustomListener:50 - onTestSuccess: Тест sampleTest пройшов успішно.
+2025-04-10 11:44:36 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу tearDown
+2025-04-10 11:44:36 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу tearDown
+2025-04-10 11:44:36 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 11:44:36 INFO  CustomListener:100 - onFinish(ITestContext): Завершення тестового контексту: SampleTests
+2025-04-10 11:44:36 INFO  CustomListener:112 - onFinish(ISuite): Завершення сьюту AllureCustomSuite
+2025-04-10 11:44:36 INFO  CustomListener:124 - onExecutionFinish: Завершення виконання тестів.
+2025-04-10 11:45:46 INFO  CustomListener:119 - onExecutionStart: Початок виконання тестів.
+2025-04-10 11:45:46 INFO  CustomListener:107 - onStart(ISuite): Запуск сьюту AllureCustomSuite
+2025-04-10 11:45:46 INFO  CustomListener:39 - onStart(ITestContext): Завантаження тестових даних з локальної БД та запуск браузера.
+2025-04-10 11:45:46 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу setUp
+2025-04-10 11:45:50 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу setUp
+2025-04-10 11:45:50 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 11:45:50 INFO  CustomListener:45 - onTestStart: Тест sampleTest починається.
+2025-04-10 11:45:50 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу sampleTest
+2025-04-10 11:45:51 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу sampleTest
+2025-04-10 11:45:51 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 11:45:51 INFO  CustomListener:50 - onTestSuccess: Тест sampleTest пройшов успішно.
+2025-04-10 11:45:51 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу tearDown
+2025-04-10 11:45:51 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу tearDown
+2025-04-10 11:45:51 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 11:45:51 INFO  CustomListener:100 - onFinish(ITestContext): Завершення тестового контексту: SampleTests
+2025-04-10 11:45:51 INFO  CustomListener:112 - onFinish(ISuite): Завершення сьюту AllureCustomSuite
+2025-04-10 11:45:51 INFO  CustomListener:124 - onExecutionFinish: Завершення виконання тестів.
+2025-04-10 11:48:15 INFO  CustomListener:119 - onExecutionStart: Початок виконання тестів.
+2025-04-10 11:48:16 INFO  CustomListener:107 - onStart(ISuite): Запуск сьюту AllureCustomSuite
+2025-04-10 11:48:16 INFO  CustomListener:39 - onStart(ITestContext): Завантаження тестових даних з локальної БД та запуск браузера.
+2025-04-10 11:48:16 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу setUp
+2025-04-10 11:48:19 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу setUp
+2025-04-10 11:48:19 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 11:48:19 INFO  CustomListener:45 - onTestStart: Тест sampleTest починається.
+2025-04-10 11:48:19 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу sampleTest
+2025-04-10 11:48:20 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу sampleTest
+2025-04-10 11:48:20 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 11:48:20 INFO  CustomListener:50 - onTestSuccess: Тест sampleTest пройшов успішно.
+2025-04-10 11:48:21 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу tearDown
+2025-04-10 11:48:21 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу tearDown
+2025-04-10 11:48:21 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 11:48:21 INFO  CustomListener:100 - onFinish(ITestContext): Завершення тестового контексту: SampleTests
+2025-04-10 11:48:21 INFO  CustomListener:112 - onFinish(ISuite): Завершення сьюту AllureCustomSuite
+2025-04-10 11:48:21 INFO  CustomListener:124 - onExecutionFinish: Завершення виконання тестів.
+2025-04-10 11:56:11 INFO  CustomListener:119 - onExecutionStart: Початок виконання тестів.
+2025-04-10 11:56:11 INFO  CustomListener:107 - onStart(ISuite): Запуск сьюту AllureCustomSuite
+2025-04-10 11:56:11 INFO  CustomListener:39 - onStart(ITestContext): Завантаження тестових даних з локальної БД та запуск браузера.
+2025-04-10 11:56:11 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу setUp
+2025-04-10 11:56:15 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу setUp
+2025-04-10 11:56:15 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 11:56:15 INFO  CustomListener:45 - onTestStart: Тест sampleTest починається.
+2025-04-10 11:56:15 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу sampleTest
+2025-04-10 11:56:16 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу sampleTest
+2025-04-10 11:56:16 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 11:56:16 INFO  CustomListener:50 - onTestSuccess: Тест sampleTest пройшов успішно.
+2025-04-10 11:56:16 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу tearDown
+2025-04-10 11:56:16 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу tearDown
+2025-04-10 11:56:16 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 11:56:16 INFO  CustomListener:100 - onFinish(ITestContext): Завершення тестового контексту: SampleTests
+2025-04-10 11:56:16 INFO  CustomListener:112 - onFinish(ISuite): Завершення сьюту AllureCustomSuite
+2025-04-10 11:56:16 INFO  CustomListener:124 - onExecutionFinish: Завершення виконання тестів.
+2025-04-10 12:00:17 INFO  CustomListener:119 - onExecutionStart: Початок виконання тестів.
+2025-04-10 12:00:17 INFO  CustomListener:107 - onStart(ISuite): Запуск сьюту AllureCustomSuite
+2025-04-10 12:00:17 INFO  CustomListener:39 - onStart(ITestContext): Завантаження тестових даних з локальної БД та запуск браузера.
+2025-04-10 12:00:17 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу setUp
+2025-04-10 12:00:21 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу setUp
+2025-04-10 12:00:21 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 12:00:21 INFO  CustomListener:45 - onTestStart: Тест sampleTest починається.
+2025-04-10 12:00:21 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу sampleTest
+2025-04-10 12:00:22 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу sampleTest
+2025-04-10 12:00:22 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 12:00:22 INFO  CustomListener:50 - onTestSuccess: Тест sampleTest пройшов успішно.
+2025-04-10 12:00:22 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу tearDown
+2025-04-10 12:00:22 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу tearDown
+2025-04-10 12:00:22 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 12:00:22 INFO  CustomListener:100 - onFinish(ITestContext): Завершення тестового контексту: SampleTests
+2025-04-10 12:00:22 INFO  CustomListener:112 - onFinish(ISuite): Завершення сьюту AllureCustomSuite
+2025-04-10 12:00:22 INFO  CustomListener:124 - onExecutionFinish: Завершення виконання тестів.
+2025-04-10 12:00:56 INFO  CustomListener:119 - onExecutionStart: Початок виконання тестів.
+2025-04-10 12:00:56 INFO  CustomListener:107 - onStart(ISuite): Запуск сьюту AllureCustomSuite
+2025-04-10 12:00:56 INFO  CustomListener:39 - onStart(ITestContext): Завантаження тестових даних з локальної БД та запуск браузера.
+2025-04-10 12:00:56 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу setUp
+2025-04-10 12:01:00 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу setUp
+2025-04-10 12:01:00 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 12:01:00 INFO  CustomListener:45 - onTestStart: Тест sampleTest починається.
+2025-04-10 12:01:00 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу sampleTest
+2025-04-10 12:01:01 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу sampleTest
+2025-04-10 12:01:01 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 12:01:01 INFO  CustomListener:50 - onTestSuccess: Тест sampleTest пройшов успішно.
+2025-04-10 12:01:01 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу tearDown
+2025-04-10 12:01:01 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу tearDown
+2025-04-10 12:01:01 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 12:01:01 INFO  CustomListener:100 - onFinish(ITestContext): Завершення тестового контексту: SampleTests
+2025-04-10 12:01:01 INFO  CustomListener:112 - onFinish(ISuite): Завершення сьюту AllureCustomSuite
+2025-04-10 12:01:01 INFO  CustomListener:124 - onExecutionFinish: Завершення виконання тестів.
+2025-04-10 12:04:44 INFO  CustomListener:119 - onExecutionStart: Початок виконання тестів.
+2025-04-10 12:04:44 INFO  CustomListener:107 - onStart(ISuite): Запуск сьюту AllureCustomSuite
+2025-04-10 12:04:44 INFO  CustomListener:39 - onStart(ITestContext): Завантаження тестових даних з локальної БД та запуск браузера.
+2025-04-10 12:04:44 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу setUp
+2025-04-10 12:04:48 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу setUp
+2025-04-10 12:04:48 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 12:04:48 INFO  CustomListener:45 - onTestStart: Тест sampleTest починається.
+2025-04-10 12:04:48 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу sampleTest
+2025-04-10 12:04:49 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу sampleTest
+2025-04-10 12:04:49 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 12:04:49 INFO  CustomListener:50 - onTestSuccess: Тест sampleTest пройшов успішно.
+2025-04-10 12:04:49 INFO  CustomListener:132 - beforeInvocation: Перед викликом методу tearDown
+2025-04-10 12:04:49 INFO  CustomListener:137 - afterInvocation: Завершено виклик методу tearDown
+2025-04-10 12:04:49 INFO  CustomListener:138 - afterInvocation: Закриття браузера, якщо це необхідно (логіка закриття).
+2025-04-10 12:04:49 INFO  CustomListener:100 - onFinish(ITestContext): Завершення тестового контексту: SampleTests
+2025-04-10 12:04:49 INFO  CustomListener:112 - onFinish(ISuite): Завершення сьюту AllureCustomSuite
+2025-04-10 12:04:49 INFO  CustomListener:124 - onExecutionFinish: Завершення виконання тестів.
+2025-04-10 12:13:10 INFO  CustomListener:161 - onExecutionStart: Початок виконання тестів.
+2025-04-10 12:13:10 INFO  CustomListener:150 - onStart(ISuite): Запуск сьюту AllureCustomSuite
+2025-04-10 12:13:10 INFO  CustomListener:45 - onStart(ITestContext): Завантаження тестових даних та запуск браузера.
+2025-04-10 12:13:10 INFO  CustomListener:172 - beforeInvocation: Перед викликом методу setUp
+2025-04-10 12:13:14 INFO  CustomListener:177 - afterInvocation: Після виклику методу setUp
+2025-04-10 12:13:14 INFO  CustomListener:50 - onTestStart: Тест sampleTest починається.
+2025-04-10 12:13:14 ERROR CustomListener:88 - Не вдалося запустити відеозапис для тесту sampleTest
+java.lang.NullPointerException: Cannot invoke "ru.sbtqa.monte.media.math.Rational.intValue()" because the return value of "ru.sbtqa.monte.media.Format.get(ru.sbtqa.monte.media.FormatKey)" is null
+	at ru.sbtqa.monte.screenrecorder.ScreenRecorder.<init>(ScreenRecorder.java:336)
+	at com.example.MonteScreenRecorder.<init>(MonteScreenRecorder.java:25)
+	at com.example.CustomListener.onTestStart(CustomListener.java:83)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:106)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:277)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:638)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-04-10 12:13:14 INFO  CustomListener:172 - beforeInvocation: Перед викликом методу sampleTest
+2025-04-10 12:13:15 INFO  CustomListener:177 - afterInvocation: Після виклику методу sampleTest
+2025-04-10 12:13:15 INFO  CustomListener:94 - onTestSuccess: Тест sampleTest пройшов успішно.
+2025-04-10 12:13:15 INFO  CustomListener:172 - beforeInvocation: Перед викликом методу tearDown
+2025-04-10 12:13:16 INFO  CustomListener:177 - afterInvocation: Після виклику методу tearDown
+2025-04-10 12:13:16 INFO  CustomListener:144 - onFinish(ITestContext): Завершення тестового контексту: SampleTests
+2025-04-10 12:13:16 INFO  CustomListener:155 - onFinish(ISuite): Завершення сьюту AllureCustomSuite
+2025-04-10 12:13:16 INFO  CustomListener:166 - onExecutionFinish: Завершення виконання тестів.
+2025-04-10 12:17:57 INFO  CustomListener:161 - onExecutionStart: Початок виконання тестів.
+2025-04-10 12:17:58 INFO  CustomListener:150 - onStart(ISuite): Запуск сьюту AllureCustomSuite
+2025-04-10 12:17:58 INFO  CustomListener:45 - onStart(ITestContext): Завантаження тестових даних та запуск браузера.
+2025-04-10 12:17:58 INFO  CustomListener:172 - beforeInvocation: Перед викликом методу setUp
+2025-04-10 12:18:02 INFO  CustomListener:177 - afterInvocation: Після виклику методу setUp
+2025-04-10 12:18:02 INFO  CustomListener:50 - onTestStart: Тест sampleTest починається.
+2025-04-10 12:18:02 ERROR CustomListener:88 - Не вдалося запустити відеозапис для тесту sampleTest
+java.lang.NullPointerException: Cannot invoke "ru.sbtqa.monte.media.math.Rational.intValue()" because the return value of "ru.sbtqa.monte.media.Format.get(ru.sbtqa.monte.media.FormatKey)" is null
+	at ru.sbtqa.monte.screenrecorder.ScreenRecorder.<init>(ScreenRecorder.java:336)
+	at com.example.MonteScreenRecorder.<init>(MonteScreenRecorder.java:25)
+	at com.example.CustomListener.onTestStart(CustomListener.java:83)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:106)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:277)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:638)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-04-10 12:18:02 INFO  CustomListener:172 - beforeInvocation: Перед викликом методу sampleTest
+2025-04-10 12:18:03 INFO  CustomListener:177 - afterInvocation: Після виклику методу sampleTest
+2025-04-10 12:18:03 INFO  CustomListener:94 - onTestSuccess: Тест sampleTest пройшов успішно.
+2025-04-10 12:18:03 INFO  CustomListener:172 - beforeInvocation: Перед викликом методу tearDown
+2025-04-10 12:18:03 INFO  CustomListener:177 - afterInvocation: Після виклику методу tearDown
+2025-04-10 12:18:03 INFO  CustomListener:144 - onFinish(ITestContext): Завершення тестового контексту: SampleTests
+2025-04-10 12:18:03 INFO  CustomListener:155 - onFinish(ISuite): Завершення сьюту AllureCustomSuite
+2025-04-10 12:18:03 INFO  CustomListener:166 - onExecutionFinish: Завершення виконання тестів.
+2025-04-10 12:19:48 INFO  CustomListener:160 - onExecutionStart: Початок виконання тестів.
+2025-04-10 12:19:48 INFO  CustomListener:149 - onStart(ISuite): Запуск сьюту AllureCustomSuite
+2025-04-10 12:19:48 INFO  CustomListener:45 - onStart(ITestContext): Завантаження тестових даних та запуск браузера.
+2025-04-10 12:19:48 INFO  CustomListener:171 - beforeInvocation: Перед викликом методу setUp
+2025-04-10 12:19:52 INFO  CustomListener:176 - afterInvocation: Після виклику методу setUp
+2025-04-10 12:19:52 INFO  CustomListener:50 - onTestStart: Тест sampleTest починається.
+2025-04-10 12:19:53 ERROR CustomListener:87 - Не вдалося запустити відеозапис для тесту sampleTest
+java.lang.NullPointerException: Cannot invoke "ru.sbtqa.monte.media.math.Rational.intValue()" because the return value of "ru.sbtqa.monte.media.Format.get(ru.sbtqa.monte.media.FormatKey)" is null
+	at ru.sbtqa.monte.screenrecorder.ScreenRecorder.<init>(ScreenRecorder.java:336)
+	at com.example.MonteScreenRecorder.<init>(MonteScreenRecorder.java:25)
+	at com.example.CustomListener.onTestStart(CustomListener.java:82)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:106)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:277)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:638)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-04-10 12:19:53 INFO  CustomListener:171 - beforeInvocation: Перед викликом методу sampleTest
+2025-04-10 12:19:54 INFO  CustomListener:176 - afterInvocation: Після виклику методу sampleTest
+2025-04-10 12:19:54 INFO  CustomListener:93 - onTestSuccess: Тест sampleTest пройшов успішно.
+2025-04-10 12:19:54 INFO  CustomListener:171 - beforeInvocation: Перед викликом методу tearDown
+2025-04-10 12:19:54 INFO  CustomListener:176 - afterInvocation: Після виклику методу tearDown
+2025-04-10 12:19:54 INFO  CustomListener:143 - onFinish(ITestContext): Завершення тестового контексту: SampleTests
+2025-04-10 12:19:54 INFO  CustomListener:154 - onFinish(ISuite): Завершення сьюту AllureCustomSuite
+2025-04-10 12:19:54 INFO  CustomListener:165 - onExecutionFinish: Завершення виконання тестів.
+2025-04-10 12:21:57 INFO  CustomListener:164 - onExecutionStart: Початок виконання тестів.
+2025-04-10 12:21:57 INFO  CustomListener:153 - onStart(ISuite): Запуск сьюту AllureCustomSuite
+2025-04-10 12:21:57 INFO  CustomListener:45 - onStart(ITestContext): Завантаження тестових даних та запуск браузера.
+2025-04-10 12:21:57 INFO  CustomListener:175 - beforeInvocation: Перед викликом методу setUp
+2025-04-10 12:22:01 INFO  CustomListener:180 - afterInvocation: Після виклику методу setUp
+2025-04-10 12:22:01 INFO  CustomListener:50 - onTestStart: Тест sampleTest починається.
+2025-04-10 12:22:01 ERROR CustomListener:91 - Не вдалося запустити відеозапис для тесту sampleTest
+java.lang.NullPointerException: Cannot invoke "ru.sbtqa.monte.media.math.Rational.intValue()" because the return value of "ru.sbtqa.monte.media.Format.get(ru.sbtqa.monte.media.FormatKey)" is null
+	at ru.sbtqa.monte.screenrecorder.ScreenRecorder.<init>(ScreenRecorder.java:336)
+	at com.example.MonteScreenRecorder.<init>(MonteScreenRecorder.java:25)
+	at com.example.CustomListener.onTestStart(CustomListener.java:86)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:106)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:277)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:638)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-04-10 12:22:01 INFO  CustomListener:175 - beforeInvocation: Перед викликом методу sampleTest
+2025-04-10 12:22:02 INFO  CustomListener:180 - afterInvocation: Після виклику методу sampleTest
+2025-04-10 12:22:02 INFO  CustomListener:97 - onTestSuccess: Тест sampleTest пройшов успішно.
+2025-04-10 12:22:02 INFO  CustomListener:175 - beforeInvocation: Перед викликом методу tearDown
+2025-04-10 12:22:03 INFO  CustomListener:180 - afterInvocation: Після виклику методу tearDown
+2025-04-10 12:22:03 INFO  CustomListener:147 - onFinish(ITestContext): Завершення тестового контексту: SampleTests
+2025-04-10 12:22:03 INFO  CustomListener:158 - onFinish(ISuite): Завершення сьюту AllureCustomSuite
+2025-04-10 12:22:03 INFO  CustomListener:169 - onExecutionFinish: Завершення виконання тестів.
+2025-04-10 12:23:02 INFO  CustomListener:165 - onExecutionStart: Початок виконання тестів.
+2025-04-10 12:23:02 INFO  CustomListener:154 - onStart(ISuite): Запуск сьюту AllureCustomSuite
+2025-04-10 12:23:02 INFO  CustomListener:45 - onStart(ITestContext): Завантаження тестових даних та запуск браузера.
+2025-04-10 12:23:02 INFO  CustomListener:176 - beforeInvocation: Перед викликом методу setUp
+2025-04-10 12:23:06 INFO  CustomListener:181 - afterInvocation: Після виклику методу setUp
+2025-04-10 12:23:06 INFO  CustomListener:50 - onTestStart: Тест sampleTest починається.
+2025-04-10 12:23:06 ERROR CustomListener:92 - Не вдалося запустити відеозапис для тесту sampleTest
+java.lang.NullPointerException: Cannot invoke "ru.sbtqa.monte.media.math.Rational.intValue()" because the return value of "ru.sbtqa.monte.media.Format.get(ru.sbtqa.monte.media.FormatKey)" is null
+	at ru.sbtqa.monte.screenrecorder.ScreenRecorder.<init>(ScreenRecorder.java:336)
+	at com.example.MonteScreenRecorder.<init>(MonteScreenRecorder.java:25)
+	at com.example.CustomListener.onTestStart(CustomListener.java:87)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:106)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:277)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:638)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-04-10 12:23:06 INFO  CustomListener:176 - beforeInvocation: Перед викликом методу sampleTest
+2025-04-10 12:23:07 INFO  CustomListener:181 - afterInvocation: Після виклику методу sampleTest
+2025-04-10 12:23:07 INFO  CustomListener:98 - onTestSuccess: Тест sampleTest пройшов успішно.
+2025-04-10 12:23:07 INFO  CustomListener:176 - beforeInvocation: Перед викликом методу tearDown
+2025-04-10 12:23:08 INFO  CustomListener:181 - afterInvocation: Після виклику методу tearDown
+2025-04-10 12:23:08 INFO  CustomListener:148 - onFinish(ITestContext): Завершення тестового контексту: SampleTests
+2025-04-10 12:23:08 INFO  CustomListener:159 - onFinish(ISuite): Завершення сьюту AllureCustomSuite
+2025-04-10 12:23:08 INFO  CustomListener:170 - onExecutionFinish: Завершення виконання тестів.
+2025-04-10 12:25:05 INFO  CustomListener:159 - onExecutionStart: Початок виконання тестів.
+2025-04-10 12:25:05 INFO  CustomListener:148 - onStart(ISuite): Запуск сьюту AllureCustomSuite
+2025-04-10 12:25:05 INFO  CustomListener:45 - onStart(ITestContext): Завантаження тестових даних та запуск браузера.
+2025-04-10 12:25:05 INFO  CustomListener:170 - beforeInvocation: Перед викликом методу setUp
+2025-04-10 12:25:14 INFO  CustomListener:175 - afterInvocation: Після виклику методу setUp
+2025-04-10 12:25:14 INFO  CustomListener:50 - onTestStart: Тест sampleTest починається.
+2025-04-10 12:25:15 INFO  CustomListener:170 - beforeInvocation: Перед викликом методу sampleTest
+2025-04-10 12:25:16 INFO  CustomListener:175 - afterInvocation: Після виклику методу sampleTest
+2025-04-10 12:25:16 INFO  CustomListener:92 - onTestSuccess: Тест sampleTest пройшов успішно.
+2025-04-10 12:25:16 INFO  CustomListener:194 - Прикріплення відео до Allure-звіту: C:\Users\romad\IdeaProjects\Task14\videos\sampleTest.mov
+2025-04-10 12:25:16 INFO  CustomListener:170 - beforeInvocation: Перед викликом методу tearDown
+2025-04-10 12:25:16 INFO  CustomListener:175 - afterInvocation: Після виклику методу tearDown
+2025-04-10 12:25:16 INFO  CustomListener:142 - onFinish(ITestContext): Завершення тестового контексту: SampleTests
+2025-04-10 12:25:16 INFO  CustomListener:153 - onFinish(ISuite): Завершення сьюту AllureCustomSuite
+2025-04-10 12:25:16 INFO  CustomListener:164 - onExecutionFinish: Завершення виконання тестів.
+2025-04-10 12:32:07 INFO  CustomListener:159 - onExecutionStart: Початок виконання тестів.
+2025-04-10 12:32:07 INFO  CustomListener:148 - onStart(ISuite): Запуск сьюту AllureCustomSuite
+2025-04-10 12:32:07 INFO  CustomListener:45 - onStart(ITestContext): Завантаження тестових даних та запуск браузера.
+2025-04-10 12:32:07 INFO  CustomListener:170 - beforeInvocation: Перед викликом методу setUp
+2025-04-10 12:32:11 INFO  CustomListener:175 - afterInvocation: Після виклику методу setUp
+2025-04-10 12:32:11 INFO  CustomListener:50 - onTestStart: Тест sampleTest починається.
+2025-04-10 12:32:12 ERROR CustomListener:86 - Не вдалося запустити відеозапис для тесту sampleTest
+java.lang.NullPointerException: Cannot invoke "ru.sbtqa.monte.media.MovieWriter.addTrack(ru.sbtqa.monte.media.Format)" because "this.w" is null
+	at ru.sbtqa.monte.screenrecorder.ScreenRecorder.createMovieWriter(ScreenRecorder.java:383)
+	at ru.sbtqa.monte.screenrecorder.ScreenRecorder.start(ScreenRecorder.java:500)
+	at com.example.CustomListener.onTestStart(CustomListener.java:83)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:106)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:277)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:638)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-04-10 12:32:12 INFO  CustomListener:170 - beforeInvocation: Перед викликом методу sampleTest
+2025-04-10 12:32:13 INFO  CustomListener:175 - afterInvocation: Після виклику методу sampleTest
+2025-04-10 12:32:13 INFO  CustomListener:92 - onTestSuccess: Тест sampleTest пройшов успішно.
+2025-04-10 12:32:13 INFO  CustomListener:170 - beforeInvocation: Перед викликом методу tearDown
+2025-04-10 12:32:13 INFO  CustomListener:175 - afterInvocation: Після виклику методу tearDown
+2025-04-10 12:32:13 INFO  CustomListener:142 - onFinish(ITestContext): Завершення тестового контексту: SampleTests
+2025-04-10 12:32:13 INFO  CustomListener:153 - onFinish(ISuite): Завершення сьюту AllureCustomSuite
+2025-04-10 12:32:13 INFO  CustomListener:164 - onExecutionFinish: Завершення виконання тестів.
+2025-04-10 12:32:50 INFO  CustomListener:159 - onExecutionStart: Початок виконання тестів.
+2025-04-10 12:32:50 INFO  CustomListener:148 - onStart(ISuite): Запуск сьюту AllureCustomSuite
+2025-04-10 12:32:50 INFO  CustomListener:45 - onStart(ITestContext): Завантаження тестових даних та запуск браузера.
+2025-04-10 12:32:50 INFO  CustomListener:170 - beforeInvocation: Перед викликом методу setUp
+2025-04-10 12:32:54 INFO  CustomListener:175 - afterInvocation: Після виклику методу setUp
+2025-04-10 12:32:54 INFO  CustomListener:50 - onTestStart: Тест sampleTest починається.
+2025-04-10 12:32:54 ERROR CustomListener:86 - Не вдалося запустити відеозапис для тесту sampleTest
+java.lang.NullPointerException: Cannot invoke "ru.sbtqa.monte.media.MovieWriter.addTrack(ru.sbtqa.monte.media.Format)" because "this.w" is null
+	at ru.sbtqa.monte.screenrecorder.ScreenRecorder.createMovieWriter(ScreenRecorder.java:383)
+	at ru.sbtqa.monte.screenrecorder.ScreenRecorder.start(ScreenRecorder.java:500)
+	at com.example.CustomListener.onTestStart(CustomListener.java:83)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:106)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:277)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:638)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-04-10 12:32:54 INFO  CustomListener:170 - beforeInvocation: Перед викликом методу sampleTest
+2025-04-10 12:32:55 INFO  CustomListener:175 - afterInvocation: Після виклику методу sampleTest
+2025-04-10 12:32:55 INFO  CustomListener:92 - onTestSuccess: Тест sampleTest пройшов успішно.
+2025-04-10 12:32:55 INFO  CustomListener:170 - beforeInvocation: Перед викликом методу tearDown
+2025-04-10 12:32:55 INFO  CustomListener:175 - afterInvocation: Після виклику методу tearDown
+2025-04-10 12:32:55 INFO  CustomListener:142 - onFinish(ITestContext): Завершення тестового контексту: SampleTests
+2025-04-10 12:32:55 INFO  CustomListener:153 - onFinish(ISuite): Завершення сьюту AllureCustomSuite
+2025-04-10 12:32:55 INFO  CustomListener:164 - onExecutionFinish: Завершення виконання тестів.
+2025-04-10 12:33:55 INFO  CustomListener:159 - onExecutionStart: Початок виконання тестів.
+2025-04-10 12:33:55 INFO  CustomListener:148 - onStart(ISuite): Запуск сьюту AllureCustomSuite
+2025-04-10 12:33:55 INFO  CustomListener:45 - onStart(ITestContext): Завантаження тестових даних та запуск браузера.
+2025-04-10 12:33:55 INFO  CustomListener:170 - beforeInvocation: Перед викликом методу setUp
+2025-04-10 12:33:59 INFO  CustomListener:175 - afterInvocation: Після виклику методу setUp
+2025-04-10 12:33:59 INFO  CustomListener:50 - onTestStart: Тест sampleTest починається.
+2025-04-10 12:33:59 ERROR CustomListener:86 - Не вдалося запустити відеозапис для тесту sampleTest
+java.lang.NullPointerException: Cannot invoke "ru.sbtqa.monte.media.MovieWriter.addTrack(ru.sbtqa.monte.media.Format)" because "this.w" is null
+	at ru.sbtqa.monte.screenrecorder.ScreenRecorder.createMovieWriter(ScreenRecorder.java:383)
+	at ru.sbtqa.monte.screenrecorder.ScreenRecorder.start(ScreenRecorder.java:500)
+	at com.example.CustomListener.onTestStart(CustomListener.java:83)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:106)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:277)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:638)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-04-10 12:33:59 INFO  CustomListener:170 - beforeInvocation: Перед викликом методу sampleTest
+2025-04-10 12:34:00 INFO  CustomListener:175 - afterInvocation: Після виклику методу sampleTest
+2025-04-10 12:34:00 INFO  CustomListener:92 - onTestSuccess: Тест sampleTest пройшов успішно.
+2025-04-10 12:34:00 INFO  CustomListener:170 - beforeInvocation: Перед викликом методу tearDown
+2025-04-10 12:34:00 INFO  CustomListener:175 - afterInvocation: Після виклику методу tearDown
+2025-04-10 12:34:00 INFO  CustomListener:142 - onFinish(ITestContext): Завершення тестового контексту: SampleTests
+2025-04-10 12:34:00 INFO  CustomListener:153 - onFinish(ISuite): Завершення сьюту AllureCustomSuite
+2025-04-10 12:34:00 INFO  CustomListener:164 - onExecutionFinish: Завершення виконання тестів.
+2025-04-10 12:35:01 INFO  CustomListener:159 - onExecutionStart: Початок виконання тестів.
+2025-04-10 12:35:01 INFO  CustomListener:148 - onStart(ISuite): Запуск сьюту AllureCustomSuite
+2025-04-10 12:35:01 INFO  CustomListener:45 - onStart(ITestContext): Завантаження тестових даних та запуск браузера.
+2025-04-10 12:35:01 INFO  CustomListener:170 - beforeInvocation: Перед викликом методу setUp
+2025-04-10 12:35:05 INFO  CustomListener:175 - afterInvocation: Після виклику методу setUp
+2025-04-10 12:35:05 INFO  CustomListener:50 - onTestStart: Тест sampleTest починається.
+2025-04-10 12:35:06 INFO  CustomListener:170 - beforeInvocation: Перед викликом методу sampleTest
+2025-04-10 12:35:07 INFO  CustomListener:175 - afterInvocation: Після виклику методу sampleTest
+2025-04-10 12:35:07 INFO  CustomListener:92 - onTestSuccess: Тест sampleTest пройшов успішно.
+2025-04-10 12:35:07 INFO  CustomListener:194 - Прикріплення відео до Allure-звіту: C:\Users\romad\IdeaProjects\Task14\videos\sampleTest.mov
+2025-04-10 12:35:07 INFO  CustomListener:170 - beforeInvocation: Перед викликом методу tearDown
+2025-04-10 12:35:07 INFO  CustomListener:175 - afterInvocation: Після виклику методу tearDown
+2025-04-10 12:35:07 INFO  CustomListener:142 - onFinish(ITestContext): Завершення тестового контексту: SampleTests
+2025-04-10 12:35:07 INFO  CustomListener:153 - onFinish(ISuite): Завершення сьюту AllureCustomSuite
+2025-04-10 12:35:07 INFO  CustomListener:164 - onExecutionFinish: Завершення виконання тестів.

@@ -1,0 +1,9 @@
+<Hobbyist>
+  <id>124</id>
+  <name>Bob Updated</name>
+  <hobbies>
+    <hobbies>reading</hobbies>
+    <hobbies>hiking</hobbies>
+    <hobbies>cooking</hobbies>
+  </hobbies>
+</Hobbyist>

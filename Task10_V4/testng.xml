@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DemoblazeTestSuite">
+    <test name="DemoblazeTests">
+        <classes>
+            <class name="com.example.DemoblazeTest"/>
+        </classes>
+    </test>
+</suite>
