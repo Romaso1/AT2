@@ -7,10 +7,10 @@
         <!-- Підключення до бази даних -->
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="connection.url">
-            jdbc:mysql://localhost:3306/hibernate_example?useSSL=false&amp;allowPublicKeyRetrieval=true&amp;serverTimezone=UTC
+            jdbc:mysql://localhost:3307/hibernate_example?useSSL=false&amp;allowPublicKeyRetrieval=true&amp;serverTimezone=UTC
         </property>
         <property name="connection.username">root</property>
-        <property name="connection.password">toor</property>
+        <property name="connection.password">root</property>
         <property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
 
         <!-- Автоматичне оновлення схеми таблиць -->

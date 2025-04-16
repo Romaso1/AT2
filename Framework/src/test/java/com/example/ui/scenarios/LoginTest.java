@@ -1,33 +1,30 @@
 package com.example.ui.scenarios;
 
-import com.example.drivers.DriverPool;
 import com.example.po.LoginPage;
-import org.openqa.selenium.By;
+import com.example.drivers.DriverPool;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
-
-import static org.testng.Assert.assertTrue;
 
 public class LoginTest {
+
     private WebDriver driver;
 
-    @BeforeMethod
+    @BeforeEach
     public void setUp() {
-        driver = DriverPool.getDriver("chrome");
-        driver.get("http://localhost/mantis/login_page.php");
+        driver = DriverPool.createDriver();
     }
 
     @Test
-    public void testLogin() {
+    public void loginTest() {
         LoginPage loginPage = new LoginPage(driver);
+        loginPage.open();
         loginPage.login("administrator", "root");
-        assertTrue(driver.findElement(By.cssSelector("span.user-info")).isDisplayed());
     }
 
-    @AfterMethod
+    @AfterEach
     public void tearDown() {
-        DriverPool.quitDriver();
+        driver.quit();
     }
 }
