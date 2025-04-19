@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MantisBT Full Test Suite" verbose="1">
+
+    <listeners>
+        <!-- офіційний Allure TestNG listener -->
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+        <!-- ваш ScreenshotListener -->
+        <listener class-name="com.example.listeners.ScreenshotListener"/>
+    </listeners>
+
+    <!-- API‑тести -->
+    <test name="API Tests">
+        <classes>
+            <class name="com.example.api.ProjectCrudTest"/>
+        </classes>
+    </test>
+
+    <!-- UI‑тести -->
+    <test name="UI Tests">
+        <classes>
+            <class name="com.example.ui.scenarios.LoginTest"/>
+            <class name="com.example.ui.scenarios.BugCommentTest"/>
+            <class name="com.example.ui.scenarios.OpenDashboardTest"/>
+        </classes>
+    </test>
+
+    <!-- ORM‑тести -->
+    <test name="ORM Tests">
+        <classes>
+            <class name="com.example.orm.OrmCrudTest"/>
+        </classes>
+    </test>
+
+</suite>

@@ -10,9 +10,10 @@ import java.util.Optional;
 
 import static org.testng.Assert.assertTrue;
 
+@SuppressWarnings("deprecation")
 public class OrmCrudTest {
 
-    @Test
+    @Test(groups = "orm")
     public void testCreateAndRead() {
         Session session = DatabaseUtil.getSession();
         Transaction tx = session.beginTransaction();
