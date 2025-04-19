@@ -152,7 +152,7 @@
           </RegexExtractor>
           <hashTree/>
         </hashTree>
-        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree">
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
@@ -274,7 +274,7 @@
         </ResultCollector>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="TG 2 – View Projects">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="TG 2 – View Projects" enabled="true">
         <intProp name="ThreadGroup.num_threads">3</intProp>
         <intProp name="ThreadGroup.ramp_time">3</intProp>
         <longProp name="ThreadGroup.duration">3600</longProp>
@@ -358,7 +358,7 @@
         </ResultCollector>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="TG 3 – View Users">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="TG 3 – View Users" enabled="true">
         <intProp name="ThreadGroup.num_threads">2</intProp>
         <intProp name="ThreadGroup.ramp_time">2</intProp>
         <longProp name="ThreadGroup.duration">3600</longProp>
