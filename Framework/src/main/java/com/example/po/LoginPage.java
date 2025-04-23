@@ -1,12 +1,15 @@
+// LoginPage.java
 package com.example.po;
 
-import org.openqa.selenium.By;
+import com.example.elements.BaseElement;
+import com.example.drivers.DriverPool;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.TimeoutException;
-
 import java.time.Duration;
 
 public class LoginPage {
@@ -14,55 +17,49 @@ public class LoginPage {
     private final WebDriverWait wait;
     private final String url = "http://localhost/mantis/login_page.php";
 
-    private final By usernameField = By.name("username");
-    private final By passwordField = By.name("password");
-    private final By loginButton = By.cssSelector("input[type='submit']");
-    // Locator for element present on dashboard after successful login
-    private final By userMenu = By.cssSelector(".navbar-buttons .user-info");
+    @FindBy(name = "username")
+    private WebElement usernameFieldElement;
+    private BaseElement usernameField;
 
-    public LoginPage(WebDriver driver) {
-        this.driver = driver;
+    @FindBy(name = "password")
+    private WebElement passwordFieldElement;
+    private BaseElement passwordField;
+
+    @FindBy(css = "input[type='submit']")
+    private WebElement loginButtonElement;
+    private BaseElement loginButton;
+
+    @FindBy(css = ".navbar-buttons .user-info")
+    private WebElement userMenuElement;
+    private BaseElement userMenu;
+
+    public LoginPage() {
+        this.driver = DriverPool.createDriver();
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        PageFactory.initElements(driver, this);
+        this.usernameField = new BaseElement(usernameFieldElement);
+        this.passwordField = new BaseElement(passwordFieldElement);
+        this.loginButton = new BaseElement(loginButtonElement);
+        this.userMenu = new BaseElement(userMenuElement);
     }
 
     public void open() {
         driver.get(url);
     }
 
-    public void setUsername(String username) {
-        WebElement user = wait.until(ExpectedConditions.visibilityOfElementLocated(usernameField));
-        user.clear();
-        user.sendKeys(username);
-        driver.findElement(loginButton).click(); // Mantis login step 1
-    }
-
-    public void setPassword(String password) {
-        WebElement pass = wait.until(ExpectedConditions.visibilityOfElementLocated(passwordField));
-        pass.clear();
-        pass.sendKeys(password);
-    }
-
-    public void submit() {
-        driver.findElement(loginButton).click();
-    }
-
-    /**
-     * Performs login and returns true if dashboard loaded.
-     */
     public boolean loginAndVerify(String username, String password) {
         open();
-        setUsername(username);
-        setPassword(password);
-        submit();
-        return isLoginSuccessful();
-    }
-
-    /**
-     * Checks presence of user menu indicating successful login.
-     */
-    public boolean isLoginSuccessful() {
+        // Step 1: enter username and proceed
+        usernameField.setText(username);
+        loginButton.click();
+        // wait for password field to appear
+        wait.until(ExpectedConditions.visibilityOf(passwordFieldElement));
+        // Step 2: enter password and submit
+        passwordField.setText(password);
+        loginButton.click();
+        // verify user menu
         try {
-            wait.until(ExpectedConditions.visibilityOfElementLocated(userMenu));
+            wait.until(ExpectedConditions.visibilityOf(userMenuElement));
             return true;
         } catch (TimeoutException e) {
             return false;

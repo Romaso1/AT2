@@ -1,37 +1,29 @@
+// BugCommentTest.java
 package com.example.ui.scenarios;
 
 import com.example.bo.LoginBO;
-import com.example.drivers.DriverPool;
-import com.example.po.BugDetailsPage;
 import com.example.po.DashboardPage;
-import com.example.utils.AllureUtils;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import com.example.po.BugDetailsPage;
+import com.example.drivers.DriverPool;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
-import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 public class BugCommentTest {
-
-    private WebDriver driver;
-
-    @BeforeMethod
-    public void setUp() {
-        driver = DriverPool.createDriver();
-    }
-
-    @Test(groups = "ui")
-    public void shouldAddCommentToBug() {
-        new LoginBO(driver).loginAs("administrator", "root");
-        new DashboardPage(driver).navigateToBugs();
-
-        BugDetailsPage bugPage = new BugDetailsPage(driver);
+    @Test
+    public void addAndVerifyComment() {
+        LoginBO loginBO = new LoginBO();
+        DashboardPage dashboard = new DashboardPage();
+        BugDetailsPage bugPage = new BugDetailsPage();
+        String comment = "Test via PageFactory";
+        Assert.assertTrue(loginBO.login("administrator", "root"), "Login should succeed");
+        dashboard.navigateToBugs();
         bugPage.openFirstBugFromList();
-        bugPage.addCommentAndVerify("Test comment from automation");
+        Assert.assertTrue(bugPage.addCommentAndVerify(comment), "Comment should appear on page");
     }
 
-    @AfterMethod
+    @AfterClass(alwaysRun = true)
     public void tearDown() {
-        AllureUtils.takeScreenshot(driver);
-        driver.quit();
+        DriverPool.quitDriver();
     }
 }

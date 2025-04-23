@@ -1,0 +1,1 @@
+{"uuid":"55422815-0f14-4dfa-aa01-e8b30006d24a","name":"com.example.ui.scenarios.OpenDashboardTest","children":["763376dc-6e13-4f4c-a908-13223d6e3901"],"befores":[],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1745438330694,"stop":1745438330880}],"start":1745438323558,"stop":1745438330932}

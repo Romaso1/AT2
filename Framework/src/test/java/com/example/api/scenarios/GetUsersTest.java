@@ -14,7 +14,7 @@ public class GetUsersTest {
         RestAssured.baseURI = "http://127.0.0.1/mantis/api/rest/";
 
         Response response = given()
-                .header("Authorization", "i93i-jXElXNTHH_3U0aXEKz3LhSZQMaW")
+                .header("Authorization", "xdg4y5um72ulcNzXU7-l8Xf7pZNPYpve")
                 .when()
                 .get("/users/")
                 .then()

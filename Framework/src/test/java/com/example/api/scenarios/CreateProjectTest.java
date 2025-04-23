@@ -19,7 +19,7 @@ public class CreateProjectTest {
         body.put("view_state", new JSONObject().put("id", 10));  // public
 
         int code = given()
-                .header("Authorization", "i93i-jXElXNTHH_3U0aXEKz3LhSZQMaW")
+                .header("Authorization", "xdg4y5um72ulcNzXU7-l8Xf7pZNPYpve")
                 .header("Content-Type", "application/json")
                 .body(body.toString())
                 .when()

@@ -1,32 +1,25 @@
+// OpenDashboardTest.java
 package com.example.ui.scenarios;
 
 import com.example.bo.LoginBO;
 import com.example.po.DashboardPage;
 import com.example.drivers.DriverPool;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
-import org.openqa.selenium.WebDriver;
-
-import static org.testng.Assert.assertTrue;;
+import org.testng.Assert;
 
 public class OpenDashboardTest {
-    private WebDriver driver;
-
-    @BeforeMethod
-    public void setUp() {
-        driver = DriverPool.createDriver();
-    }
-
-    @Test(groups = "ui")
+    @Test
     public void shouldDisplayDashboardAfterLogin() {
-        new LoginBO(driver).loginAs("administrator", "root");
-        DashboardPage dashboardPage = new DashboardPage(driver);
-        assertTrue(dashboardPage.isUserLoggedIn());
+        LoginBO loginBO = new LoginBO();
+        DashboardPage dashboard = new DashboardPage();
+        Assert.assertTrue(loginBO.login("administrator", "root"), "Login should succeed");
+        dashboard.navigateToBugs();
+        Assert.assertTrue(dashboard.isPageLoaded(), "Dashboard should be loaded");
     }
 
-    @AfterMethod
+    @AfterClass(alwaysRun = true)
     public void tearDown() {
-        driver.quit();
+        DriverPool.quitDriver();
     }
 }

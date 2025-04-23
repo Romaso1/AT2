@@ -1,30 +1,22 @@
+// LoginTest.java
 package com.example.ui.scenarios;
 
 import com.example.po.LoginPage;
 import com.example.drivers.DriverPool;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
-import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 public class LoginTest {
-
-    private WebDriver driver;
-
-    @BeforeMethod
-    public void setUp() {
-        driver = DriverPool.createDriver();
-    }
-
-    @Test(groups = "ui")
+    @Test
     public void loginTest() {
-        LoginPage loginPage = new LoginPage(driver);
-        loginPage.open();
-        loginPage.loginAndVerify("administrator", "root");
+        LoginPage loginPage = new LoginPage();
+        boolean success = loginPage.loginAndVerify("administrator", "root");
+        Assert.assertTrue(success, "Login should be successful");
     }
 
-    @AfterMethod
+    @AfterClass(alwaysRun = true)
     public void tearDown() {
-        driver.quit();
+        DriverPool.quitDriver();
     }
 }
